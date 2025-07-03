@@ -123,8 +123,8 @@ All charts were generated using PivotCharts from Excel:
 
 | File | Description |
 |------|-------------|
-| [Amazon Review_Dashboard.xlsx](Amazon_Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
-| [Amazon Case study.xlsx](data/AmazonData.xlsx) | raw dataset used in the analysis |
+| [Amazon Review_Dashboard.xlsx](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/f44797c01f854ddcebbe884a206e8a19c9c75db6/AmazonReviewCS%20Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
+| [Amazon Case study.xlsx](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/f44797c01f854ddcebbe884a206e8a19c9c75db6/Data/Amazon%20case%20study%20(1).xlsx) | raw dataset used in the analysis |
 
 ----
 
@@ -133,24 +133,25 @@ All charts were generated using PivotCharts from Excel:
 
 ### 1. Average Discount Percentage by Category
 - Calculated using pivot table: Category in rows, average of Discount % in values.
-- 📌 **Finding**: Electronics and Fashion categories had the highest average discounts (40–55%).
+-  **Findings**: Home Improvement and Computers & Accessories had the highest average discounts (57.5% and 54% respectively).
 
 ### 2. Number of Products per Category
-- 📊 Created a pivot table counting product names per category.
+- Created a pivot table with Count of Product names in values and Category in rows.
 - **Top 3** categories by product count:
-  - Electronics: 420
-  - Fashion: 310
-  - Home & Kitchen: 245
+  - Electronics: 526
+  - Computer&Accessories: 453
+  - Home & Kitchen: 448
 
 ### 3. Total Reviews per Category
-- Used SUM of `Rating_Count`.
-- 💡 **Insight**: Electronics had both the highest product count and the most reviews.
+- Used SUM of `Rating_Count` in value and Category_class_1 in row.
+-  **Insight**: Electronics had both the highest product count and the most reviews.
 
 ### 4. Products with Highest Average Ratings
-- Sorted products by `Rating` in descending order.
+- Sorted products id by `Rating` in rows and value respectively, in descending order.
 - ⭐ **Top Rated Products**:
-  - Product A: 4.9 stars
-  - Product B: 4.8 stars
+  - B09ZHCJDP1: 5.0 stars
+  - B0BQRJ3C47: 5.0 stars
+  - B0BP7XLX48: 5.0 stars
 
 ### 5. Avg Actual vs Discounted Price by Category
 - Pivot table showing both `Actual Price` and `Discounted Price` as Averages.
