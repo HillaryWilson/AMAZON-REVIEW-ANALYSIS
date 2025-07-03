@@ -16,7 +16,7 @@ I used Microsoft Excel with pivot tables and charts to clean, analyze, and visua
   - Review Titles and Content
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 Using Excel pivot tables, calculated fields, and visualizations, the following questions were answered:
 
@@ -36,7 +36,7 @@ Using Excel pivot tables, calculated fields, and visualizations, the following q
 14. Identify the top 5 products by rating and number of reviews combined.
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Microsoft Excel
 - PivotTables & Charts
@@ -45,7 +45,7 @@ Using Excel pivot tables, calculated fields, and visualizations, the following q
 - Basic Excel formulas
 ----
 
-## 🧪 Key Excel Formulas & Code Snippets
+## Key Excel Formulas & Code Snippets
 
 ### Data Cleaning
 **Creating category classes**
@@ -68,8 +68,7 @@ Category class 1
 ```
 
 
-
-### ➕ Calculated Columns
+### Calculated Columns
 
 **1. Potential Revenue**
 ```excel
@@ -102,3 +101,24 @@ Category class 1
 ```
 
 ---
+
+## Visualizations
+
+All charts were generated using PivotCharts from Excel:
+
+-- ![Average Discount by Category](Charts/1. AVG DISCOUNT% by PRODUCT CATEGORY chart.png)
+- ![Product Ratings Distribution](Charts/rating_distribution_chart.png)
+- ![Price Comparison](Charts/price_comparison_chart.png)
+- ![Rating vs Discount](Charts/rating_vs_discount_chart.png)
+- ![Top Products Combined Score](Charts/top5_combined_score_chart.png)
+- KPI Tiles: Total Products, Avg Rating, Avg Discount
+- Slicers: Category, Rating, Price range
+  
+
+> Note: Visuals were exported to PNG and included in the `/charts/` folder.
+
+
+
+
+
+
