@@ -106,19 +106,52 @@ Category class 1
 
 All charts were generated using PivotCharts from Excel:
 
--- ![Average Discount by Category](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/3ee3cec5195e3200827eb43ba5715cf76fc22d19/Charts/1.%20AVG%20DISCOUNT%25%20by%20PRODUCT%20CATEGORY%20chart.png)
-- ![Product Ratings Distribution](Charts/rating_distribution_chart.png)
-- ![Price Comparison](Charts/price_comparison_chart.png)
-- ![Rating vs Discount](Charts/rating_vs_discount_chart.png)
-- ![Top Products Combined Score](Charts/top5_combined_score_chart.png)
+- [Average Discount by Category](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/3ee3cec5195e3200827eb43ba5715cf76fc22d19/Charts/1.%20AVG%20DISCOUNT%25%20by%20PRODUCT%20CATEGORY%20chart.png)
+- [Product Ratings Distribution](Charts/rating_distribution_chart.png)
+- [Price Comparison](Charts/price_comparison_chart.png)
+- [Rating vs Discount](Charts/rating_vs_discount_chart.png)
+- [Top Products Combined Score](Charts/top5_combined_score_chart.png)
 - KPI Tiles: Total Products, Avg Rating, Avg Discount
 - Slicers: Category, Rating, Price range
-  
 
 > Note: Visuals were exported to PNG and included in the `/charts/` folder.
 
+---
+
+## Excel Dashboard & Data Files
+
+| File | Description |
+|------|-------------|
+| [Amazon_Dashboard.xlsx](Amazon_Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
+| [AmazonData.xlsx](data/AmazonData.xlsx) | raw dataset used in the analysis |
 
 
+---
 
+## 🧱 Project Structure
+
+```
+📦 amazon-review-analysis
+├── README.md
+├── AmazonReviewCS-Dashboard.xlsx
+├── data/
+│   └── Amazon-Case-Study.xlsx
+├── charts/
+│   ├── avg_discount_chart.png
+│   ├── rating_distribution_chart.png
+│   ├── price_comparison_chart.png
+│   ├── rating_vs_discount_chart.png
+│   └── top5_combined_score_chart.png
+```
+
+---
+
+## Author
+
+Wilson Hillary  
+📧 willhillary20@gmail.com  
+🔗 [GitHub Profile](https://github.com/yourusername)
+
+---
 
 
