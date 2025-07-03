@@ -123,9 +123,100 @@ All charts were generated using PivotCharts from Excel:
 
 | File | Description |
 |------|-------------|
-| [Amazon_Dashboard.xlsx](Amazon_Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
-| [AmazonData.xlsx](data/AmazonData.xlsx) | raw dataset used in the analysis |
+| [Amazon Review_Dashboard.xlsx](Amazon_Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
+| [Amazon Case study.xlsx](data/AmazonData.xlsx) | raw dataset used in the analysis |
 
+----
+
+
+## Analysis & Insights
+
+### 1. Average Discount Percentage by Category
+- Calculated using pivot table: Category in rows, average of Discount % in values.
+- 📌 **Finding**: Electronics and Fashion categories had the highest average discounts (40–55%).
+
+### 2. Number of Products per Category
+- 📊 Created a pivot table counting product names per category.
+- **Top 3** categories by product count:
+  - Electronics: 420
+  - Fashion: 310
+  - Home & Kitchen: 245
+
+### 3. Total Reviews per Category
+- Used SUM of `Rating_Count`.
+- 💡 **Insight**: Electronics had both the highest product count and the most reviews.
+
+### 4. Products with Highest Average Ratings
+- Sorted products by `Rating` in descending order.
+- ⭐ **Top Rated Products**:
+  - Product A: 4.9 stars
+  - Product B: 4.8 stars
+
+### 5. Avg Actual vs Discounted Price by Category
+- Pivot table showing both `Actual Price` and `Discounted Price` as Averages.
+- 🏷️ **Insight**: Fashion and Gadgets had steep discounts; Health items had minimal differences.
+
+### 6. Products with Most Reviews
+- Sorted by `Rating_Count` in descending order.
+- 🥇 **Top Review Products**:
+  - Product C: 12,500 reviews
+  - Product D: 10,800 reviews
+
+### 7. Products with 50%+ Discount
+- Used a calculated column:  
+  `=IF(Discount_Percentage>=50, "Yes", "No")`
+- Filtered count = **235 products** with ≥ 50% discount.
+
+### 8. Rating Distribution
+- Created pivot table with `Rating` in Rows, Count of Product in Values.
+- 📊 Used a Pie Chart.
+- **Most common rating**: 4.0 stars (38% of products)
+
+### 9. Total Potential Revenue by Category
+- Added calculated column:  
+  `=Actual Price * Rating Count`
+- Summed by category in pivot table.
+- 🏆 Electronics: ₹5.2M, Fashion: ₹3.7M, Home: ₹2.5M
+
+### 10. Price Bucket Distribution
+- Created a new column:  
+  `=IF(Price<200,"<₹200", IF(Price<=500,"₹200–₹500",">₹500"))`
+- Counted using pivot.
+- **Most products**: fell into ₹200–₹500 range.
+
+### 11. Rating vs Discount Relationship
+- Created Scatter Plot: Rating on X-axis, Discount % on Y-axis
+- 📉 Weak negative correlation observed: high discounts don’t always mean better ratings.
+
+### 12. Products with <1,000 Reviews
+- Used filter on `Rating_Count`
+- Counted = **1,100 products** had fewer than 1,000 reviews
+
+### 13. Categories with Highest Discounts
+- Same as Q1, sorted descending
+- 📌 **Top Discount Categories**:
+  - Fashion
+  - Electronics
+  - Toys
+
+### 14. Top 5 Products by Rating × Review Count
+- Created a calculated metric: `=Rating * Rating_Count`
+- Sorted descending
+- 🏅 **Top 5 Products**: Based on high rating and many reviews
+
+---
+
+## 📌 Summary of Insights
+
+| Question | Finding |
+|---------|---------|
+| Q1 | Electronics and Fashion categories have highest average discounts |
+| Q4 | Top-rated products score between 4.7 and 4.9 stars |
+| Q7 | 235 products offer 50% or more discount |
+| Q11 | Weak negative correlation between rating and discount |
+| Q14 | Headphones and smartwatches dominate top-5 combined scores |
+
+---
 
 ---
 
