@@ -110,7 +110,8 @@ All charts were generated using PivotCharts from Excel:
 - [Product Ratings Distribution](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/b723294aa358df2fab368211ad196fda3319a5cb/Charts/8.%20DISTRIBUTION%20OF%20PRODUCT%20RATINGS%20chart.png)
 - [Price Comparison](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/b723294aa358df2fab368211ad196fda3319a5cb/Charts/5.%20AVERAGE%20ACTUAL%20PRICE%20BYDISCOUNTED%20PRICE%20BY%20CATEGORY%20chart.png)
 - [Rating vs Discount](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/b723294aa358df2fab368211ad196fda3319a5cb/Charts/11.%20RATING%20AND%20DISCOUNT%20RELATIONSHIP%20chart.png)
-- [Top Products Combined Score](Charts/top5_combined_score_chart.png)
+- [Potential Revenue by Category](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/9.%20TOTAL%20POTENTIAL%20REVENUE%20BY%20CATEGORY%20chart.png)
+- [Top Products Combined Score](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/14.%20TOP%205%20PRODUCT%20BY%20RATING%20AND%20REVIEW%20table.png)
 - KPI Tiles: Total Products, Avg Rating, Avg Discount
 - Slicers: Category, Rating, Price range
 
