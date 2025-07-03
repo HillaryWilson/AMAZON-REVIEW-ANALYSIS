@@ -80,7 +80,7 @@ Category class 1
 =IF([@[discounted_price]]<200, "<200", IF([@[discounted_price]]<=500, "200-500", ">500"))
 ```
 
-**3. Rating Category**
+**3. Rating Category** (Q12)
 ```excel
 =IF([@[rating_count]]>1000, "More than 1000", "Fewer than 1000")
 ```
@@ -148,61 +148,62 @@ All charts were generated using PivotCharts from Excel:
 
 ### 4. Products with Highest Average Ratings
 - Sorted products id by `Rating` in rows and value respectively, in descending order.
-- ⭐ **Top Rated Products**:
+-  **Top Rated Products**:
   - B09ZHCJDP1: 5.0 stars
   - B0BQRJ3C47: 5.0 stars
   - B0BP7XLX48: 5.0 stars
 
 ### 5. Avg Actual vs Discounted Price by Category
-- Pivot table showing both `Actual Price` and `Discounted Price` as Averages.
-- 🏷️ **Insight**: Fashion and Gadgets had steep discounts; Health items had minimal differences.
+- Pivot table showing both `Actual Price` and `Discounted Price` as Averages in Values and Category in column.
+-  **Insight**: most Categories had steep discounts; Office products and Toys&Games had minimal differences.
 
 ### 6. Products with Most Reviews
+- Pivot table showing Product_id in rows and Sun of rating_count in values
 - Sorted by `Rating_Count` in descending order.
-- 🥇 **Top Review Products**:
-  - Product C: 12,500 reviews
-  - Product D: 10,800 reviews
+-  **Top Review Products**:
+  - B07KSMBL2H: 853,945 reviews
+  - B014I8SSD0: 426,973 reviews
+  - B014I8SX4Y: 426,973 reviews
 
 ### 7. Products with 50%+ Discount
-- Used a calculated column:  
-  `=IF(Discount_Percentage>=50, "Yes", "No")`
-- Filtered count = **235 products** with ≥ 50% discount.
+- Used a calculated column (High Discount Flag (≥50%)) 
+- Filtered count = **751 products** with ≥ 50% discount.
 
 ### 8. Rating Distribution
 - Created pivot table with `Rating` in Rows, Count of Product in Values.
-- 📊 Used a Pie Chart.
-- **Most common rating**: 4.0 stars (38% of products)
+-  Used a Pie Chart.
+- **Most common rating**: 4.1 stars (244 products)
 
 ### 9. Total Potential Revenue by Category
-- Added calculated column:  
-  `=Actual Price * Rating Count`
-- Summed by category in pivot table.
-- 🏆 Electronics: ₹5.2M, Fashion: ₹3.7M, Home: ₹2.5M
+- Added calculated column (Potential Revenue)
+- Summed Potential Revenue in values by category in column in pivot table.
+-  Electronics: 97.1B, Computers&Accessories: 12.6B, Home&Kitchen: 10.5B
 
 ### 10. Price Bucket Distribution
-- Created a new column:  
-  `=IF(Price<200,"<₹200", IF(Price<=500,"₹200–₹500",">₹500"))`
-- Counted using pivot.
-- **Most products**: fell into ₹200–₹500 range.
+- Created a new column (Price Bucket)
+- Counted using pivot. With Price Bucket on Columns and Count of product in values
+- **Most products**: fell into >500 range.
 
 ### 11. Rating vs Discount Relationship
-- Created Scatter Plot: Rating on X-axis, Discount % on Y-axis
-- 📉 Weak negative correlation observed: high discounts don’t always mean better ratings.
+- Created a new column (Discount Bucket)
+- Counted using pivot. With Discount Bucket on Columns and Average of rating in values
+- **Observation**: Products with discounts less than 20% had the highest average rating.
 
 ### 12. Products with <1,000 Reviews
-- Used filter on `Rating_Count`
-- Counted = **1,100 products** had fewer than 1,000 reviews
+- Created a new column (Rating Category)
+- used Pivot Table with Rating Category in rows and Count of product name
+- Counted = **328 products** had fewer than 1,000 reviews
 
 ### 13. Categories with Highest Discounts
-- Same as Q1, sorted descending
+- Calculated using pivot table: Category in rows, MAX of Discount % in values.
 - 📌 **Top Discount Categories**:
-  - Fashion
-  - Electronics
-  - Toys
+  - Computers&Accessories: 94%
+  - Electronics: 91%
+  - Home&Kitchen: 90%
 
 ### 14. Top 5 Products by Rating × Review Count
-- Created a calculated metric: `=Rating * Rating_Count`
-- Sorted descending
+- Created a new row (Combined Score)
+- Used Pivot Tables with Product Id IN rows and Max of combined score as values
 - 🏅 **Top 5 Products**: Based on high rating and many reviews
 
 ---
