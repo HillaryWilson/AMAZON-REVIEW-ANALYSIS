@@ -106,7 +106,7 @@ Category class 1
 
 All charts were generated using PivotCharts from Excel:
 
--- ![Average Discount by Category](Charts/1. AVG DISCOUNT% by PRODUCT CATEGORY chart.png)
+-- ![Average Discount by Category](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/3ee3cec5195e3200827eb43ba5715cf76fc22d19/Charts/1.%20AVG%20DISCOUNT%25%20by%20PRODUCT%20CATEGORY%20chart.png)
 - ![Product Ratings Distribution](Charts/rating_distribution_chart.png)
 - ![Price Comparison](Charts/price_comparison_chart.png)
 - ![Rating vs Discount](Charts/rating_vs_discount_chart.png)
