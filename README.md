@@ -114,7 +114,7 @@ All charts were generated using PivotCharts from Excel:
 - [Top Products Combined Score](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/14.%20TOP%205%20PRODUCT%20BY%20RATING%20AND%20REVIEW%20table.png)
 - KPI Tiles: Total Products, Avg Rating, Avg Discount
 - Slicers: Category, Rating, Price range
-- [Dashboard Preview]()
+- [Dashboard Preview](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/d269008dd055366b82cfb40f209b5646976d326c/DashboardPreview.png)
 
 > Note: Visuals were exported to PNG and included in the `/charts/` folder.
 
@@ -124,7 +124,7 @@ All charts were generated using PivotCharts from Excel:
 
 | File | Description |
 |------|-------------|
-| [Amazon Review_Dashboard.xlsx](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/f44797c01f854ddcebbe884a206e8a19c9c75db6/AmazonReviewCS%20Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
+| [Amazon Review_Dashboard.xlsx](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/d269008dd055366b82cfb40f209b5646976d326c/AmazonReviewCS%20Dashboard.xlsx) | Full Excel file with pivot tables, slicers, and charts, Cleaned dataset used in the analysis |
 | [Amazon Case study.xlsx](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/f44797c01f854ddcebbe884a206e8a19c9c75db6/Data/Amazon%20case%20study%20(1).xlsx) | raw dataset used in the analysis |
 
 ----
