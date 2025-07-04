@@ -77,7 +77,7 @@ Category class 1
 
 **2. Price Bucket (using IF)**
 ```excel
-=IF([@[discounted_price]]<200, "<200", IF([@[discounted_price]]<=500, "200-500", ">500"))
+=IF([@[discounted_price]]<₹200, "<₹200", IF([@[discounted_price]]<=₹500, "₹200-₹500", ">₹500"))
 ```
 
 **3. Rating Category** (Q12)
@@ -114,6 +114,7 @@ All charts were generated using PivotCharts from Excel:
 - [Top Products Combined Score](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/14.%20TOP%205%20PRODUCT%20BY%20RATING%20AND%20REVIEW%20table.png)
 - KPI Tiles: Total Products, Avg Rating, Avg Discount
 - Slicers: Category, Rating, Price range
+- [Dashboard Preview]()
 
 > Note: Visuals were exported to PNG and included in the `/charts/` folder.
 
@@ -177,12 +178,12 @@ All charts were generated using PivotCharts from Excel:
 ### 9. Total Potential Revenue by Category
 - Added calculated column (Potential Revenue)
 - Summed Potential Revenue in values by category in column in pivot table.
--  Electronics: 97.1B, Computers&Accessories: 12.6B, Home&Kitchen: 10.5B
+-  Electronics: ₹97.1B, Computers&Accessories: ₹12.6B, Home&Kitchen: ₹10.5B
 
 ### 10. Price Bucket Distribution
 - Created a new column (Price Bucket)
 - Counted using pivot. With Price Bucket on Columns and Count of product in values
-- **Most products**: fell into >500 range.
+- **Most products**: fell into >₹500 range.
 
 ### 11. Rating vs Discount Relationship
 - Created a new column (Discount Bucket)
@@ -205,6 +206,7 @@ All charts were generated using PivotCharts from Excel:
 - Created a new row (Combined Score)
 - Used Pivot Tables with Product Id IN rows and Max of combined score as values
 - 🏅 **Top 5 Products**: Based on high rating and many reviews
+- ![TOP 5 PRODUCT BT RATING AND REVIEW](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/14.%20TOP%205%20PRODUCT%20BY%20RATING%20AND%20REVIEW%20table.png)
 
 ---
 
@@ -212,13 +214,19 @@ All charts were generated using PivotCharts from Excel:
 
 | Question | Finding |
 |---------|---------|
-| Q1 | Electronics and Fashion categories have highest average discounts |
-| Q4 | Top-rated products score between 4.7 and 4.9 stars |
-| Q7 | 235 products offer 50% or more discount |
+| Q1 | Home Improvement and Computers & Accessories have highest average discounts |
+| Q4 | Top-rated products score 5.0 stars |
+| Q7 | 751 products offer 50% or more discount |
 | Q11 | Weak negative correlation between rating and discount |
-| Q14 | Headphones and smartwatches dominate top-5 combined scores |
 
 ---
+
+## ✅ Recommendations
+
+1. **Avoid excessive discounting** for low-rated products — invest in product quality instead.
+2. **Focus on ₹200–₹500 range** for best-performing product pricing.
+3. **Boost visibility of products** with high combined score (rating × review count) through featured listings or ads.
+4. **Use customer reviews and high ratings** as part of marketing to reinforce product trust.
 
 ---
 
