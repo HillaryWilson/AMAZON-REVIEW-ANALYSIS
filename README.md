@@ -77,7 +77,7 @@ Category class 1
 
 **2. Price Bucket (using IF)**
 ```excel
-=IF([@[discounted_price]]<₹200, "<₹200", IF([@[discounted_price]]<=₹500, "₹200-₹500", ">₹500"))
+=IF([@[discounted_price]]<200, "<200", IF([@[discounted_price]]<=500, "200-500", ">500"))
 ```
 
 **3. Rating Category** (Q12)
@@ -178,12 +178,12 @@ All charts were generated using PivotCharts from Excel:
 ### 9. Total Potential Revenue by Category
 - Added calculated column (Potential Revenue).
 - Summed Potential Revenue in values by category in column in pivot table.
--  Electronics: ₹97.1B, Computers&Accessories: ₹12.6B, Home&Kitchen: ₹10.5B
+-  Electronics: 97.1B, Computers&Accessories: 12.6B, Home&Kitchen: 10.5B
 
 ### 10. Price Bucket Distribution
 - Created a new column (Price Bucket).
 - Counted using pivot. With `Price Bucket` on Columns and `Count of product` in values.
-- **Most products**: fell into >₹500 range.
+- **Most products**: fell into >500 range.
 
 ### 11. Rating vs Discount Relationship
 - Created a new column (Discount Bucket).
