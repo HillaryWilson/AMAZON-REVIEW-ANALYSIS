@@ -205,12 +205,12 @@ All charts were generated using PivotCharts from Excel:
 ### 14. Top 5 Products by Rating × Review Count
 - Created a new row (Combined Score)
 - Used Pivot Tables with `Product_Id` in rows and `Max of combined score` as values.
-- 🏅 **Top 5 Products**: Based on high rating and many reviews
+-  ***Top 5 Products***: Based on high rating and many reviews
 - ![TOP 5 PRODUCT BT RATING AND REVIEW](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/14.%20TOP%205%20PRODUCT%20BY%20RATING%20AND%20REVIEW%20table.png)
 
 ---
 
-## 📌 Summary of Insights
+##  Summary of Insights
 
 | Question | Finding |
 |---------|---------|
