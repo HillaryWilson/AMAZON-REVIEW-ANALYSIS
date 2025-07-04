@@ -1,5 +1,5 @@
 # AMAZON-REVIEW-ANALYSIS
-**Excel-based analysis of Amazon product reviews using Pivot tables for analysis and Dashboard for visualization**
+**Excel-based analysis of Amazon product reviews using Pivot tables for analysis and Dashboard for visualization. This is an Sql-based analysis of Kultra Mega Stores (KMS), which specialises in office supplies and furniture. This is a Capstone project, organised by DSA, Incubator hub. **
 ---
 This project analyzes Amazon product data to uncover insights into pricing strategies, discounts, customer engagement, and performance. The goal is to help stakeholders make data-driven decisions on marketing, pricing, and inventory.
 
