@@ -133,22 +133,22 @@ All charts were generated using PivotCharts from Excel:
 ## Analysis & Insights
 
 ### 1. Average Discount Percentage by Category
-- Calculated using pivot table: Category in rows, average of Discount % in values.
+- Calculated using pivot table: `Category` in rows, `average of Discount %` in values.
 -  **Findings**: Home Improvement and Computers & Accessories had the highest average discounts (57.5% and 54% respectively).
 
 ### 2. Number of Products per Category
-- Created a pivot table with Count of Product names in values and Category in rows.
+- Created a pivot table with `Count of Product names` in values and `Category` in rows.
 - **Top 3** categories by product count:
   - Electronics: 526
   - Computer&Accessories: 453
   - Home & Kitchen: 448
 
 ### 3. Total Reviews per Category
-- Used SUM of `Rating_Count` in value and Category_class_1 in row.
+- Used SUM of `Rating_Count` in value and `Category_class_1` in row.
 -  **Insight**: Electronics had both the highest product count and the most reviews.
 
 ### 4. Products with Highest Average Ratings
-- Sorted products id by `Rating` in rows and value respectively, in descending order.
+- Sorted `Products_id` by `Rating` in rows and value respectively, in descending order.
 -  **Top Rated Products**:
   - B09ZHCJDP1: 5.0 stars
   - B0BQRJ3C47: 5.0 stars
@@ -159,7 +159,7 @@ All charts were generated using PivotCharts from Excel:
 -  **Insight**: most Categories had steep discounts; Office products and Toys&Games had minimal differences.
 
 ### 6. Products with Most Reviews
-- Pivot table showing Product_id in rows and Sun of rating_count in values
+- Pivot table showing `Product_id` in rows and `Sum of rating_count` in values
 - Sorted by `Rating_Count` in descending order.
 -  **Top Review Products**:
   - B07KSMBL2H: 853,945 reviews
@@ -167,36 +167,36 @@ All charts were generated using PivotCharts from Excel:
   - B014I8SX4Y: 426,973 reviews
 
 ### 7. Products with 50%+ Discount
-- Used a calculated column (High Discount Flag (≥50%)) 
+- Used a calculated column (High Discount Flag (≥50%)) in column and `count of product_name` in values.
 - Filtered count = **751 products** with ≥ 50% discount.
 
 ### 8. Rating Distribution
-- Created pivot table with `Rating` in Rows, Count of Product in Values.
+- Created pivot table with `Rating` in Rows, `Count of Product` in Values.
 -  Used a Pie Chart.
-- **Most common rating**: 4.1 stars (244 products)
+- **Most common rating**: 4.1 stars (244 products).
 
 ### 9. Total Potential Revenue by Category
-- Added calculated column (Potential Revenue)
+- Added calculated column (Potential Revenue).
 - Summed Potential Revenue in values by category in column in pivot table.
 -  Electronics: ₹97.1B, Computers&Accessories: ₹12.6B, Home&Kitchen: ₹10.5B
 
 ### 10. Price Bucket Distribution
-- Created a new column (Price Bucket)
-- Counted using pivot. With Price Bucket on Columns and Count of product in values
+- Created a new column (Price Bucket).
+- Counted using pivot. With `Price Bucket` on Columns and `Count of product` in values.
 - **Most products**: fell into >₹500 range.
 
 ### 11. Rating vs Discount Relationship
-- Created a new column (Discount Bucket)
-- Counted using pivot. With Discount Bucket on Columns and Average of rating in values
+- Created a new column (Discount Bucket).
+- Counted using pivot. With `Discount Bucket` on Columns and `Average of rating` in values.
 - **Observation**: Products with discounts less than 20% had the highest average rating.
 
 ### 12. Products with <1,000 Reviews
-- Created a new column (Rating Category)
-- used Pivot Table with Rating Category in rows and Count of product name
-- Counted = **328 products** had fewer than 1,000 reviews
+- Created a new column (Rating Category).
+- used Pivot Table with `Rating Category` in rows and `Count of product` name.
+- Counted = **328 products** had fewer than 1,000 reviews.
 
 ### 13. Categories with Highest Discounts
-- Calculated using pivot table: Category in rows, MAX of Discount % in values.
+- Calculated using pivot table: `Category` in rows, `MAX of Discount%` in values.
 - 📌 **Top Discount Categories**:
   - Computers&Accessories: 94%
   - Electronics: 91%
@@ -204,7 +204,7 @@ All charts were generated using PivotCharts from Excel:
 
 ### 14. Top 5 Products by Rating × Review Count
 - Created a new row (Combined Score)
-- Used Pivot Tables with Product Id IN rows and Max of combined score as values
+- Used Pivot Tables with `Product_Id` in rows and `Max of combined score` as values.
 - 🏅 **Top 5 Products**: Based on high rating and many reviews
 - ![TOP 5 PRODUCT BT RATING AND REVIEW](https://github.com/HillaryWilson/AMAZON-REVIEW-ANALYSIS/blob/2d8b2368fa9cae14a9ffe2c3764193c069bc358d/Charts/14.%20TOP%205%20PRODUCT%20BY%20RATING%20AND%20REVIEW%20table.png)
 
@@ -252,7 +252,8 @@ All charts were generated using PivotCharts from Excel:
 
 Wilson Hillary  
 📧 willhillary20@gmail.com  
-🔗 [GitHub Profile](https://github.com/yourusername)
+🔗 [LinKedIn Profile](www.linkedin.com/in/wilson-hillary-597748342)
+🔗 [GitHub Profile](https://github.com/HillaryWilson)
 
 ---
 
