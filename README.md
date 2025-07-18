@@ -252,7 +252,7 @@ All charts were generated using PivotCharts from Excel:
 
 Wilson Hillary  
 📧 willhillary20@gmail.com  
-🔗 [LinKedIn Profile](www.linkedin.com/in/wilson-hillary-597748342)
+🔗 LinKedIn Profile: (www.linkedin.com/in/wilson-hillary-597748342)
 🔗 [GitHub Profile](https://github.com/HillaryWilson)
 
 ---
